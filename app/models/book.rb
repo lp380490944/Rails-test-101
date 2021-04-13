@@ -1,4 +1,4 @@
 class Book < ApplicationRecord
-    validates :title,length: {minimum: 100}
-    validates :author,length: {minimum: 100}
+    validates :title, length: {minimum: 2}
+    validates :author,length: {minimum: 2}
 end
